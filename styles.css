@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin: 0;
@@ -75,7 +78,7 @@ nav ul li a {
 .container {
   max-width: 1000px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto
 }
 
 .hero {
@@ -152,7 +155,7 @@ input {
   text-align: center;
 }
 
-#pricing .product {
+.product {
   background-color: #f9f9f9;
   width: 200px;
   padding: 20px;
@@ -160,6 +163,13 @@ input {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px;
 }
+.product:hover {
+  background-color: #e8e1b6;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+}
+
 
 #testimonials {
   margin-top: 100px;
@@ -253,4 +263,5 @@ footer li a {
     height: auto;
     margin-top: 20px;
   }
+
 }
